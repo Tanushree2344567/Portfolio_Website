@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <script src="https://kit.fontawesome.com/60ccc3c074.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                     
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPMENT</p>
+                <h1>Hi,I'm <span>Mary </span><br>R K,From Bangalore</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>“I graduated with my B.Tech degree in  two months ago. I chose that field of study because 
+                         I’ve always been interested in finance and money, and a couple of family members told me
+                          it leads to great career options, too. and that’s why I wanted to interview with your firm.
+                           This position seems like a great opportunity to advance those skills I just talked about, and continue building my career and challenging myself”</p>
+                           <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web-development</span><br>Designing Web using HTML,CSS,Javascript</li>
+                            <li><span>computer-programming</span><br> the creation, design and building of computer software </li>
+                            <li><span>database-management</span><br>Using SQL,Data Analytics  To successfully manage data</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2026</span><br>B.tech from Reva-University Bangalore</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>This is my first internship-2024</span><br>I have no Work Experience</li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------services------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>reyTube-Youtube cloning</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"> , </i>
+                    <i class=" fa-sharp fa-regular fa-c"> ,</i>
+                    <i class=" fa-brands fa-java"></i>
+                    <h2>computer-programming</h2>
+                    <p> A programmer is a software developer that focuses on writing code, debugging, 
+                        testing, and maintaining the platform. Coding and debugging</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- -----------------portfolio-------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/logo.png">
+                    <div class="layer">
+                    <h2>Social media app-Youtube</h2>
+                        <p>In this project, the goal is to build a YouTube clone website using ReactJS, a popular JavaScript 
+                        library for building user interfaces. It also demonstrates how to fetch 
+                        and display real-time YouTube data and videos using the YouTube Data API</p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        
+
+                <div class="work">
+                    <img src="images/th.jpeg">
+                    <div class="layer">
+                    <h2>Iot-Obstacle Avoiding Car</h2>
+                        <p>
+                            Build an Arduino obstacle-avoiding car using an ultrasonic sensor,
+                             motor driver, DC motors, and code to detect and avoid obstacles.and Smart plant Monitoring system</p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+                <div class="work">
+                    <img src="images/dadsa.jpeg">
+                    <div class="layer">
+                        <h2>Algorithm and Datastructure</h2>
+                        <p>Mini project on Graph traversal Techniques and Implementation of ternary heap and its operations </p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+            
+            <a href="#" class="btn">see more</a>
+
+            </div>
+    </div>
+    <!-- -------------------------Contact details----------------------- -->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me!!</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>email123@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>9912376195</p>
+                
+                <div class="social-icons">
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://Slinkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a  href="images/my-cv.pdf" download class="btn  btn2">Download CV</a>
+            </div>
+                
+
+                <div class="contact-Right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message"  rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="MSG"></span>
+
+                </div>
+
+                
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright@Mary<i class="fa-sharp fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+   
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwHGpaXC9wL53rwnlOndr2ah1DgrlcllOgaIYLEFXH2W819OdYKeWBokgHBuLZPYP5C/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const MSG=document.getElementById("MSG")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                MSG.innerHTML="message sent successfully"
+                setTimeout(function(){
+                    MSG.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
